@@ -1,0 +1,26 @@
+{
+    "name": "sts/suss",
+    "description": "Infers a DateTime format from a DateTime string.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sts\\Suss\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bubba",
+            "email": "rob@stechstudio.com"
+        }
+    ],
+    "require-dev": {
+        "nesbot/carbon": "^2.57",
+        "phpunit/phpunit": "^9",
+        "fakerphp/faker": "^1.19"
+    },
+    "require": {
+        "ramsey/collection": "^1.2",
+        "illuminate/collections": "^9.10"
+    }
+}
